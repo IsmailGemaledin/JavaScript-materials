@@ -1,0 +1,78 @@
+### **1. Advanced JavaScript Mechanics**  
+1. How does JavaScript’s **execution context** work under the hood?  
+2. Explain the difference between **`[[Scope]]`** and **`ExecutionContext`**.  
+3. What is the **Temporal Dead Zone (TDZ)** in ES6+?  
+4. How does **`Object.freeze()`** differ from **`Object.seal()`**?  
+5. What happens when you modify a **frozen/sealed object’s prototype**?  
+
+### **2. Functions & Scoping (Advanced)**  
+6. How does **lexical scoping** differ from **dynamic scoping**? (Does JS support both?)  
+7. What is **partial application**? How is it different from currying?  
+8. Explain **`Function.prototype.bind`** and its polyfill implementation.  
+9. How would you implement **memoization for recursive functions** (e.g., Fibonacci)?  
+10. What is **tail call optimization (TCO)**? Does JavaScript support it?  
+
+### **3. Asynchronous Patterns & Performance**  
+11. How does **`queueMicrotask()`** differ from `setTimeout(fn, 0)`?  
+12. Explain **backpressure** in Node.js streams. How would you handle it?  
+13. What is the **difference between `setImmediate` and `process.nextTick`** (Node.js)?  
+14. How would you **cancel a `fetch` request** mid-execution?  
+15. What are **WebSockets**, and how do they differ from HTTP polling?  
+
+### **4. Objects, Prototypes & Meta-Programming**  
+16. How does **`Object.defineProperty()`** work? What are its **configurable/enumerable/writable** attributes?  
+17. Explain **`Symbol`** and its practical use cases (e.g., `Symbol.iterator`).  
+18. What is **`Reflect`** in JavaScript? How is it different from `Object` methods?  
+19. How would you implement **private class fields** without ES2022’s `#` syntax?  
+20. What is the **`instanceof` operator’s internal logic**? Can you trick it?  
+
+### **5. ES6+ Deep Dives**  
+21. How do **generators** (`function*`) work under the hood?  
+22. What is the **`flatMap()`** method, and when would you use it?  
+23. Explain **`BigInt`** and its limitations compared to `Number`.  
+24. How does **`Promise.allSettled()`** differ from `Promise.all()`?  
+25. What are **logical assignment operators** (`||=`, `&&=`, `??=`)?  
+
+### **6. Performance & Memory**  
+26. How would you **detect memory leaks** in a JavaScript app?  
+27. What is **`WeakMap`/`WeakSet`**, and why are they useful for memory?  
+28. Explain **debouncing vs. throttling** with real-world examples.  
+29. How does **garbage collection** handle circular references?  
+30. What are **V8’s hidden classes** and how do they optimize JS?  
+
+### **7. Browser & DOM (Advanced)**  
+31. How does **`requestIdleCallback`** improve performance?  
+32. What is the **`Intersection Observer API`**, and how is it better than scroll events?  
+33. Explain **`Shadow DOM`** and its encapsulation benefits.  
+34. How does **`Event.stopPropagation()`** differ from **`Event.stopImmediatePropagation()`**?  
+35. What is **`passive event listener`**, and why is it used?  
+
+### **8. Functional Programming (FP)**  
+36. What is **function composition**? Write a `compose(...fns)` utility.  
+37. How would you implement **immutability** without libraries like Immer?  
+38. Explain **transducers** (e.g., optimizing `map` + `filter` chains).  
+39. What is a **functor** in JavaScript? Give an example.  
+40. How does **lazy evaluation** work in JS (e.g., generators, `lodash/fp`)?  
+
+### **9. Security & Best Practices**  
+41. How does **`JSON.parse()`** handle prototype pollution risks?  
+42. What is **CSP (Content Security Policy)**, and how does it mitigate XSS?  
+43. Explain **`SameSite` cookie attributes** and their security impact.  
+44. How would you sanitize user input to prevent **XSS**?  
+45. What is **`Trusted Types`** (Google’s anti-DOM-XSS API)?  
+
+### **10. Debugging & Tooling**  
+46. How do you **profile CPU/memory usage** in Chrome DevTools?  
+47. What is **source map**, and how does it help debug minified code?  
+48. Explain **`Error.captureStackTrace`** (Node.js/V8).  
+49. How would you **mock `fetch`/`XMLHttpRequest`** for testing?  
+50. What are **`--inspect` and `--inspect-brk` flags** in Node.js?  
+
+---
+
+### **Bonus: Interviewer’s Favorite Curveballs**  
+- *"How would you implement `Promise` from scratch?"*  
+- *"Explain how `async/await` transpiles to ES5."*  
+- *"What happens when you delete `Array.prototype.map`?"*  
+- *"Can you modify a string’s prototype safely? Why or why not?"*  
+- *"How would you polyfill `Object.is()`?"*  
