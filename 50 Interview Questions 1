@@ -1,78 +1,78 @@
-### 1. Basics & Syntax  
+## 1. Basics & Syntax  
 1. What are the differences between `var`, `let`, and `const`?  
 2. What is hoisting in JavaScript?  
 3. Explain the difference between `==` and `===`.  
 4. What are JavaScript’s primitive data types?  
 5. What is the `typeof` operator, and how does it work with `null` and arrays?  
 
-### **2. Functions & Scope**  
+## 2. Functions & Scope
 6. What is a closure? Give a practical example.  
 7. Explain the concept of `this` in JavaScript. How does it differ in arrow functions?  
 8. What is an IIFE (Immediately Invoked Function Expression)?  
 9. What is the difference between `function declaration` and `function expression`?  
 10. What is a higher-order function?  
 
-### **3. Objects & Prototypes**  
+## 3. Objects & Prototypes 
 11. How does prototypal inheritance work in JavaScript?  
 12. What is the difference between `Object.create()` and `new`?  
 13. How do you create a private variable in JavaScript?  
 14. Explain the `class` syntax in ES6 and how it relates to prototypes.  
 15. What is the difference between `__proto__` and `prototype`?  
 
-### **4. Asynchronous JavaScript**  
+## 4. Asynchronous JavaScript
 16. What is the event loop? How does it work with `setTimeout`?  
 17. Explain callbacks and the "callback hell" problem.  
 18. What are promises? How do you chain them?  
 19. What is `async/await`, and how does it improve readability?  
 20. What is the difference between `Promise.all()` and `Promise.race()`?  
 
-### **5. ES6+ Features**  
+## 5. ES6+ Features  
 21. What are template literals?  
 22. Explain destructuring assignment (objects and arrays).  
 23. What are default parameters?  
 24. What are arrow functions, and how do they differ from regular functions?  
 25. What is the spread/rest operator, and how is it used?  
 
-### **6. Tricky Concepts & Gotchas**  
+## 6. Tricky Concepts & Gotchas  
 26. What is the output of `0.1 + 0.2 === 0.3`? Why?  
 27. What is `NaN`, and how do you check if a value is `NaN`?  
 28. Explain `"use strict"` mode.  
 29. What is the difference between `null` and `undefined`?  
 30. Why does `[] == ![]` evaluate to `true`?  
 
-### **7. Error Handling & Debugging**  
+## 7. Error Handling & Debugging 
 31. How does `try/catch` work? Can you catch syntax errors?  
 32. What are custom errors, and how do you create them?  
 33. What is the purpose of the `finally` block?  
 
-### **8. DOM & Browser APIs**  
+## 8. DOM & Browser APIs  
 34. What is event delegation? Why is it useful?  
 35. Explain event bubbling and capturing.  
 36. What is the difference between `localStorage` and `sessionStorage`?  
 37. How does `addEventListener` work? How do you remove an event listener?  
 38. What is CORS, and how do you handle it in JavaScript?  
 
-### **9. Functional & OOP Concepts**  
+## 9. Functional & OOP Concepts  
 39. What is currying? Give an example.  
 40. What is memoization? How would you implement it?  
 41. What is the difference between `map()`, `filter()`, and `reduce()`?  
 42. What is a pure function?  
 
-### **10. Advanced Topics**  
+## 10. Advanced Topics  
 43. What are Web Workers, and when would you use them?  
 44. What is the difference between `setTimeout` and `setInterval`?  
 45. How does garbage collection work in JavaScript?  
 46. What is the `Proxy` object in ES6?  
 47. Explain generators and the `yield` keyword.  
 
-### **11. Coding Challenges**  
+## 11. Coding Challenges  
 48. Write a function to deep clone an object.  
 49. Implement debouncing or throttling.  
 50. Reverse a string without using built-in methods.  
 
 ---
 
-### **Bonus: Top 5 Follow-up Questions Interviewers Ask**  
+## Bonus: Top 5 Follow-up Questions Interviewers Ask  
 - *"Can you optimize this further?"*  
 - *"What’s the time/space complexity?"*  
 - *"How would you test this?"*  
